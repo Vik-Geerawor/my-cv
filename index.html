@@ -3,18 +3,239 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My CV</title>
+    <title>CV Data</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
   </head>
   <body>
-    <header class="header">
-      <figure class="profile-picture"></figure>
-
-      <address class="contacts">
-        <a href="tel:+447484884021" class="tel">+44 (0) 7484 884 021</a>
-        <a href="mailto:sgeerawor@gmail.com" class="email"
-          >sgeerawor@gmail.com</a
-        >
-      </address>
+    <header>
+      <h1>Curriculum Vitae</h1>
     </header>
+
+    <main>
+      <article class="container-main">
+        <!-- Profile Picture -->
+        <figure class="profile-pic-container">
+          <!-- <h2>Profile Picture</h2> -->
+          <img
+            src="img/profile_pic_flip.png"
+            alt="profile Picture"
+            width="567"
+            width="600"
+          />
+        </figure>
+
+        <!-- Contacts -->
+        <section class="contacts-container">
+          <h2>Shailendrasingh (Vik) Geerawor</h2>
+          <br />
+          <div>
+            <img
+              src="img/tel_icon.png"
+              alt="telephone"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            <a href="tel:+441231231234">+ 44 (0) 123 123 1234</a>
+          </div>
+
+          <div>
+            <img
+              src="img/email_icon2.png"
+              alt="email"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            <a href="mailto:yourname@email.com">yourname@email.com</a>
+          </div>
+
+          <div>
+            <img
+              src="img/location.png"
+              alt="location"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            <a href="https://maps.app.goo.gl/UabWNnaQu8K8p42MA"
+              >Waltham Abbey</a
+            >
+          </div>
+
+          <div>
+            <img
+              src="img/british_icon.png"
+              alt="nationality"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            British
+          </div>
+
+          <div>
+            <img
+              src="img/linkedin.png"
+              alt="linkedin"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            <a href="https://www.linkedin.com/in/vik-geerawor-16786330/"
+              >LinkedIn: vik-geerawor</a
+            >
+          </div>
+
+          <div>
+            <img
+              src="img/github_logo.png"
+              alt="github logo"
+              width="512"
+              height="512"
+              class="icon"
+            />
+            <a href="https://github.com/Vik-Geerawor">GitHub: vik-geerawor</a>
+          </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div>
+            <h2>Skills</h2>
+            <strong>Programming: </strong>Python, Java, HTML, CSS, Bash, Perl,
+            C# <br />
+            <strong>Databases: </strong>Oracle, SQL Server, Sybase, Postgres
+            <br />
+            <strong>Software & Tools: </strong>Git, GitHub, GitLab, Bitbucket,
+            Nexus, Jira, Confluence, ServiceNow, Splunk, Autosys, Ansible, VS
+            Code, IntelliJ, ... <br />
+          </div>
+          <div>
+            <h2>Education</h2>
+            <span class="nowrap">
+              <strong>MSc Computer Systems & Networking</strong>
+            </span>
+            <span class="nowrap"> University of Greenwich | London </span>
+            <span class="nowrap">
+              Dissertation: VoIP for Enterprise Networks
+            </span>
+            Grade: <em>Merit</em>
+          </div>
+          <div>
+            <h2>Certifications & Training</h2>
+            <table>
+              <tr>
+                <td>Aug "21:</td>
+                <td><strong>CFA L1</strong> - Self-study</td>
+              </tr>
+              <tr>
+                <td>May "18:</td>
+                <td><strong>Openshift</strong> Admin I - RedHat</td>
+              </tr>
+              <tr>
+                <td>Apr "18:</td>
+                <td><strong>DevOps</strong> - DevOps Institue (certified)</td>
+              </tr>
+              <tr>
+                <td>Feb "18:</td>
+                <td><strong>OCA</strong> Oracle SQL - Oracle (certified)</td>
+              </tr>
+              <tr>
+                <td>Jun "17:</td>
+                <td><strong>Java 8</strong> Fundamentals -</td>
+              </tr>
+              <tr>
+                <td>Mar "17:</td>
+                <td><strong>Linux+</strong> - CompTIA (certified)</td>
+              </tr>
+              <tr>
+                <td>Feb "16:</td>
+                <td><strong>SQL Tuning</strong> - Oracle</td>
+              </tr>
+              <tr>
+                <td>Jun "13:</td>
+                <td><strong>ITIL</strong> Foundation - BCS (certified)</td>
+              </tr>
+              <tr>
+                <td>Jul "10:</td>
+                <td><strong>CCNA</strong> - Cisco (certified)</td>
+              </tr>
+            </table>
+          </div>
+        </aside>
+
+        <!-- Professional Summary -->
+        <section class="summary">
+          <h2>Professional Summary</h2>
+          <p>
+            Self-driven and experienced System Analyst adept in providing
+            quality service to business. Undertakes challenges and is able to
+            deliver succesful outcomes. Meets deadlines and exceeds
+            expectations. Liaises confidently with senior stakeholders and is
+            able to articulate complex issues in plain English. Active in
+            continuous learning and self improvement.
+          </p>
+        </section>
+
+        <!-- Employment History -->
+        <section class="employment">
+          <h2>Employment History</h2>
+          <div>
+            <span class="nowrap">
+              <strong>Natwest Group</strong> | London <br />
+            </span>
+            <span class="nowrap">
+              <em>Production Support Analyst (Senior Associate)</em>
+            </span>
+            <ul>
+              <li>Provide L3 support to stakeholders</li>
+              <li>Raise and prioritise jiras in sprint meeting</li>
+              <li>
+                Collaborate with internal and external parties to achive common
+                goal
+              </li>
+              <li>Divide, assign and conquor complex problems</li>
+              <li>Interpret code and articulate its logic in plain English</li>
+              <li>Organise and lead BCP activities</li>
+              <li>Being SME for business stakeholders</li>
+              <li>Being the go-to person for the team</li>
+              <li>Coach, train and motivate team members</li>
+              <li>
+                Business areas: P&L, IPV, Sub-ledger, Treasury, Fin and Tax Rep,
+                Market and Static Data
+              </li>
+            </ul>
+          </div>
+          <div>
+            <span class="nowrap">
+              <strong>Citigroup</strong> | London <br />
+            </span>
+            <span class="nowrap">
+              <em>Client Onboarding Technical Specialist</em>
+            </span>
+            <ul>
+              <li>Set up connectivity and STP logic with clients</li>
+              <li>
+                Help clients understand the technical specifications of various
+                connectivity and file formats
+              </li>
+              <li>Project manage each client from start to end</li>
+              <li>Test sample trades and provide timely feedback to clients</li>
+              <li>Provide progress report to senior management</li>
+              <li>Release code to production environment</li>
+              <li>
+                Provide initial support before handing over to Support team
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- <footer>
+      <h2>Any Footer</h2>
+    </footer> -->
   </body>
 </html>
